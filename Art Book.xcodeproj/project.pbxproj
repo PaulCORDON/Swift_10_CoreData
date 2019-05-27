@@ -13,6 +13,8 @@
 		39A9418822942CB90037A9E8 /* Art_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39A9418622942CB90037A9E8 /* Art_Book.xcdatamodeld */; };
 		39A9418A22942CBA0037A9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A9418922942CBA0037A9E8 /* Assets.xcassets */; };
 		39A9418D22942CBA0037A9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A9418B22942CBA0037A9E8 /* LaunchScreen.storyboard */; };
+		39A94197229439F20037A9E8 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A94196229439F20037A9E8 /* AddViewController.swift */; };
+		39A9419922943EBC0037A9E8 /* TAPME.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A9419822943EBC0037A9E8 /* TAPME.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		39A9418922942CBA0037A9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A9418C22942CBA0037A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A9418E22942CBA0037A9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A94196229439F20037A9E8 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		39A9419822943EBC0037A9E8 /* TAPME.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TAPME.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		39A9417E22942CB90037A9E8 /* Art Book */ = {
 			isa = PBXGroup;
 			children = (
+				39A94196229439F20037A9E8 /* AddViewController.swift */,
 				39A9417F22942CB90037A9E8 /* AppDelegate.swift */,
 				39A9418122942CB90037A9E8 /* ViewController.swift */,
 				39A9418322942CB90037A9E8 /* Main.storyboard */,
+				39A9419822943EBC0037A9E8 /* TAPME.jpg */,
 				39A9418922942CBA0037A9E8 /* Assets.xcassets */,
 				39A9418B22942CBA0037A9E8 /* LaunchScreen.storyboard */,
 				39A9418E22942CBA0037A9E8 /* Info.plist */,
@@ -128,6 +134,7 @@
 				39A9418D22942CBA0037A9E8 /* LaunchScreen.storyboard in Resources */,
 				39A9418A22942CBA0037A9E8 /* Assets.xcassets in Resources */,
 				39A9418522942CB90037A9E8 /* Main.storyboard in Resources */,
+				39A9419922943EBC0037A9E8 /* TAPME.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				39A9418222942CB90037A9E8 /* ViewController.swift in Sources */,
 				39A9418022942CB90037A9E8 /* AppDelegate.swift in Sources */,
+				39A94197229439F20037A9E8 /* AddViewController.swift in Sources */,
 				39A9418822942CB90037A9E8 /* Art_Book.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
